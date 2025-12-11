@@ -1,6 +1,0 @@
-streamlit
-rasterio
-pandas
-geopandas
-matplotlib
-numpy

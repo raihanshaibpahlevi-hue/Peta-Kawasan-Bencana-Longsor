@@ -1,4 +1,4 @@
-# app.py
+# Import necessary libraries
 import streamlit as st
 import rasterio
 import numpy as np
@@ -28,7 +28,7 @@ Aplikasi akan menghitung kemiringan (slope) dari DEM, menormalisasi tiap kriteri
 """)
 
 # -------------------------
-# Helper functions
+# functions 
 # -------------------------
 def compute_slope(dem_arr, dem_affine):
     # simple slope from gradients (rise/run)
